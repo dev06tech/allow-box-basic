@@ -5,19 +5,19 @@ const Footer = () => {
   return (
     <footer className="bg-white border-t">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="flex items-center justify-center">
           {/* Column 1: Logo & About */}
-          <div className="col-span-1">
-            <Link to="/" className="flex items-center">
+          <div className="">
+            <Link to="/" className="flex items-center justify-center">
               <div className="flex items-center justify-center h-8 w-8 rounded-full bg-gradient-to-r from-edu-purple to-edu-blue text-white font-bold">
-                S
+                AB
               </div>
-              <span className="ml-2 text-xl font-bold">SchoolDesk Cloud</span>
+              <span className="ml-2 text-xl font-bold">Allow Box</span>
             </Link>
             <p className="mt-3 text-sm text-gray-600">
               Transforming school management with our intuitive, comprehensive platform that empowers administrators, teachers, and parents.
             </p>
-            <div className="mt-4 flex space-x-3">
+            {/* <div className="mt-4 flex space-x-3">
               <a href="#" className="text-gray-500 hover:text-edu-purple">
                 <Facebook size={20} />
               </a>
@@ -30,11 +30,11 @@ const Footer = () => {
               <a href="#" className="text-gray-500 hover:text-edu-purple">
                 <Instagram size={20} />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Column 2: Product */}
-          <div className="col-span-1">
+          {/* <div className="col-span-1">
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">
               Product
             </h3>
@@ -60,10 +60,10 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Column 3: Resources */}
-          <div className="col-span-1">
+          {/* <div className="col-span-1">
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">
               Resources
             </h3>
@@ -89,10 +89,10 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Column 4: Legal */}
-          <div className="col-span-1">
+          {/* <div className="col-span-1">
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">
               Legal
             </h3>
@@ -118,12 +118,12 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
         <div className="mt-8 border-t border-gray-200 pt-8">
           <p className="text-sm text-gray-500 text-center">
-            &copy; {new Date().getFullYear()} SchoolDesk Cloud. All rights reserved.
+            &copy; {new Date().getFullYear()} Allow Box. All rights reserved.
           </p>
         </div>
       </div>

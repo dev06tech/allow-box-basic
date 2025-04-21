@@ -18,9 +18,9 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <div className="flex items-center justify-center h-8 w-8 rounded-full bg-gradient-to-r from-edu-purple to-edu-blue text-white font-bold">
-                S
+                AB
               </div>
-              <span className="ml-2 text-xl font-bold">SchoolDesk Cloud</span>
+              <span className="ml-2 text-xl font-bold">Allow Box</span>
             </Link>
           </div>
           <div className="hidden md:block">
@@ -28,18 +28,18 @@ const Navbar = () => {
               <Link to="/" className="text-gray-700 hover:text-edu-purple px-3 py-2 rounded-md font-medium">
                 Home
               </Link>
-              <Link to="/features" className="text-gray-700 hover:text-edu-purple px-3 py-2 rounded-md font-medium">
+              {/* <Link to="/features" className="text-gray-700 hover:text-edu-purple px-3 py-2 rounded-md font-medium">
                 Features
               </Link>
               <Link to="/pricing" className="text-gray-700 hover:text-edu-purple px-3 py-2 rounded-md font-medium">
                 Pricing
-              </Link>
+              </Link> */}
               <Link to="/contact" className="text-gray-700 hover:text-edu-purple px-3 py-2 rounded-md font-medium">
                 Contact
               </Link>
             </div>
           </div>
-          <div className="hidden md:block">
+          {/* <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-3">
               <Link to="/login">
                 <Button variant="outline">Log in</Button>
@@ -48,7 +48,7 @@ const Navbar = () => {
                 <Button>Get Started</Button>
               </Link>
             </div>
-          </div>
+          </div> */}
           <div className="md:hidden">
             <button
               onClick={toggleMenu}

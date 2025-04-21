@@ -57,11 +57,11 @@ const Index = () => {
               Empower your school with our comprehensive, cloud-based management system. Connect administrators, teachers, and parents on one intuitive platform.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link to="/register">
+              {/* <Link to="/register">
                 <Button size="lg" className="w-full sm:w-auto">
                   Start Free Trial
                 </Button>
-              </Link>
+              </Link> */}
               <Link to="/contact">
                 <Button size="lg" variant="outline" className="w-full sm:w-auto">
                   Schedule Demo
@@ -115,11 +115,11 @@ const Index = () => {
                 <div className="mt-3 flex items-center justify-between">
                   <div className="text-gray-600">
                     <p className="text-sm">Collected</p>
-                    <p className="font-semibold text-black">$124,500</p>
+                    <p className="font-semibold text-black">₹12,45,000</p>
                   </div>
                   <div className="text-gray-600">
                     <p className="text-sm">Outstanding</p>
-                    <p className="font-semibold text-red-500">$12,850</p>
+                    <p className="font-semibold text-red-500">₹1,28,500</p>
                   </div>
                 </div>
               </div>
@@ -323,13 +323,13 @@ const Index = () => {
                       </div>
                       <div className="bg-gray-50 p-2 rounded text-center">
                         <p className="text-xs text-gray-500">Revenue</p>
-                        <p className="font-bold text-xl">$248k</p>
+                        <p className="font-bold text-xl">₹248k</p>
                       </div>
                     </div>
                     <div className="space-y-2">
                       <div className="flex justify-between items-center">
                         <span className="text-xs">Lincoln High School</span>
-                        <span className="text-xs">$32,450</span>
+                        <span className="text-xs">₹3,24,500</span>
                       </div>
                       <div className="w-full h-1.5 bg-gray-200 rounded-full">
                         <div className="h-1.5 rounded-full bg-edu-purple" style={{ width: "78%" }}></div>
@@ -337,15 +337,15 @@ const Index = () => {
                       
                       <div className="flex justify-between items-center">
                         <span className="text-xs">St. Mary's Academy</span>
-                        <span className="text-xs">$28,700</span>
+                        <span className="text-xs">₹2,87,000</span>
                       </div>
                       <div className="w-full h-1.5 bg-gray-200 rounded-full">
                         <div className="h-1.5 rounded-full bg-edu-purple" style={{ width: "64%" }}></div>
                       </div>
                       
                       <div className="flex justify-between items-center">
-                        <span className="text-xs">Washington Elementary</span>
-                        <span className="text-xs">$21,300</span>
+                        <span className="text-xs">Vidya Niketan</span>
+                        <span className="text-xs">₹2,13,000</span>
                       </div>
                       <div className="w-full h-1.5 bg-gray-200 rounded-full">
                         <div className="h-1.5 rounded-full bg-edu-purple" style={{ width: "52%" }}></div>
@@ -477,11 +477,11 @@ const Index = () => {
                       <div className="text-xs font-medium mb-2">Students Requiring Attention</div>
                       <div className="space-y-2">
                         <div className="flex justify-between items-center p-1.5 bg-red-50 rounded text-xs">
-                          <span>John Smith</span>
+                          <span>Aman</span>
                           <span className="font-medium text-red-600">58%</span>
                         </div>
                         <div className="flex justify-between items-center p-1.5 bg-yellow-50 rounded text-xs">
-                          <span>Sarah Johnson</span>
+                          <span>Dheeraj</span>
                           <span className="font-medium text-yellow-600">65%</span>
                         </div>
                         <div className="flex justify-between items-center p-1.5 bg-green-50 rounded text-xs">
@@ -530,7 +530,7 @@ const Index = () => {
                         <span className="text-xs font-bold text-edu-purple">EL</span>
                       </div>
                       <div>
-                        <h4 className="font-medium text-gray-800">Emma Lewis</h4>
+                        <h4 className="font-medium text-gray-800">Prerna Mohapatra</h4>
                         <p className="text-xs text-gray-500">Grade 8A | Roll No: 15</p>
                       </div>
                       <div className="ml-auto bg-green-100 rounded-full px-2 py-0.5">
@@ -572,7 +572,8 @@ const Index = () => {
       </section>
       
       {/* Testimonials */}
-      <section className="py-16 bg-white">
+      
+      {/* <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-on-scroll opacity-0 translate-y-8 transition-all duration-700">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 gradient-text">
@@ -583,9 +584,9 @@ const Index = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8"> */}
             {/* Testimonial 1 */}
-            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow animate-on-scroll opacity-0 translate-y-8 transition-all duration-700">
+            {/* <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow animate-on-scroll opacity-0 translate-y-8 transition-all duration-700">
               <div className="flex items-center mb-4">
                 <div className="h-12 w-12 rounded-full bg-edu-purple/10 flex items-center justify-center mr-4">
                   <span className="text-lg font-bold text-edu-purple">LH</span>
@@ -607,10 +608,10 @@ const Index = () => {
                   ))}
                 </div>
               </div>
-            </div>
+            </div> */}
             
             {/* Testimonial 2 */}
-            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow animate-on-scroll opacity-0 translate-y-8 transition-all duration-700">
+            {/* <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow animate-on-scroll opacity-0 translate-y-8 transition-all duration-700">
               <div className="flex items-center mb-4">
                 <div className="h-12 w-12 rounded-full bg-edu-blue/10 flex items-center justify-center mr-4">
                   <span className="text-lg font-bold text-edu-blue">SM</span>
@@ -632,10 +633,10 @@ const Index = () => {
                   ))}
                 </div>
               </div>
-            </div>
+            </div> */}
             
             {/* Testimonial 3 */}
-            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow animate-on-scroll opacity-0 translate-y-8 transition-all duration-700">
+            {/* <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow animate-on-scroll opacity-0 translate-y-8 transition-all duration-700">
               <div className="flex items-center mb-4">
                 <div className="h-12 w-12 rounded-full bg-edu-purple/10 flex items-center justify-center mr-4">
                   <span className="text-lg font-bold text-edu-purple">WE</span>
@@ -660,7 +661,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       
       {/* Pricing CTA */}
       <section className="py-16 bg-edu-purple/5">
@@ -673,11 +674,11 @@ const Index = () => {
               Join thousands of schools already using EduBloom Cloud to simplify administration, enhance learning, and improve communication.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/pricing">
+              {/* <Link to="/pricing">
                 <Button size="lg" className="w-full sm:w-auto">
                   View Pricing
                 </Button>
-              </Link>
+              </Link> */}
               <Link to="/contact">
                 <Button size="lg" variant="outline" className="w-full sm:w-auto">
                   Contact Sales

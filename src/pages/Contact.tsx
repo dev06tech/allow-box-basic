@@ -62,9 +62,10 @@ const Contact = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* <div className="grid grid-cols-1 lg:grid-cols-3 gap-8"> */}
+          <div className="flex items-center justify-center">
             {/* Contact Form */}
-            <div className="lg:col-span-2">
+            {/* <div className="lg:col-span-2">
               <div className="bg-white rounded-xl shadow-sm border p-8">
                 <h2 className="text-2xl font-bold mb-6">Send us a message</h2>
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -151,10 +152,10 @@ const Contact = () => {
                   </Button>
                 </form>
               </div>
-            </div>
+            </div> */}
             
             {/* Contact Info */}
-            <div>
+            <div className="md:min-w-[500px] min-w-[300px]">
               <div className="bg-edu-purple-light rounded-xl p-8">
                 <h2 className="text-2xl font-bold mb-6 text-edu-purple">Contact Information</h2>
                 
@@ -165,8 +166,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-medium">Email</h3>
-                      <p className="text-gray-700">info@edubloom.cloud</p>
-                      <p className="text-gray-700">support@edubloom.cloud</p>
+                      <p className="text-gray-700"><u>gideonnayak01@gmail.com</u></p>
+                      {/* <p className="text-gray-700">support@edubloom.cloud</p> */}
                     </div>
                   </div>
                   
@@ -176,12 +177,12 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-medium">Phone</h3>
-                      <p className="text-gray-700">+1 (888) 123-4567</p>
-                      <p className="text-gray-700">Mon-Fri 9:00 AM - 6:00 PM EST</p>
+                      <p className="text-gray-700">+91 9560501909</p>
+                      <p className="text-gray-700">Mon-Fri 9:00 AM - 9:00 PM</p>
                     </div>
                   </div>
                   
-                  <div className="flex items-start">
+                  {/* <div className="flex items-start">
                     <div className="bg-white p-2 rounded-full mr-4">
                       <Building className="h-5 w-5 text-edu-purple" />
                     </div>
@@ -191,10 +192,10 @@ const Contact = () => {
                       <p className="text-gray-700">Suite 456</p>
                       <p className="text-gray-700">Boston, MA 02110</p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 
-                <div className="mt-8 pt-8 border-t border-edu-purple/20">
+                {/* <div className="mt-8 pt-8 border-t border-edu-purple/20">
                   <h3 className="font-medium mb-4">Connect with us</h3>
                   <div className="flex space-x-3">
                     <a href="#" className="bg-white p-2 rounded-full text-edu-purple hover:bg-edu-purple hover:text-white transition-colors">
@@ -218,10 +219,10 @@ const Contact = () => {
                       </svg>
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
               
-              <div className="mt-6 bg-white rounded-xl shadow-sm border p-8">
+              {/* <div className="mt-6 bg-white rounded-xl shadow-sm border p-8">
                 <div className="flex items-start">
                   <div className="bg-edu-blue-light p-2 rounded-full mr-4">
                     <MessageSquare className="h-5 w-5 text-edu-blue" />
@@ -234,7 +235,7 @@ const Contact = () => {
                     </Button>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           
@@ -251,7 +252,7 @@ const Contact = () => {
               <div className="bg-white rounded-lg shadow-sm border p-6">
                 <h3 className="font-semibold mb-2">How can I schedule a demo?</h3>
                 <p className="text-gray-600">
-                  You can schedule a demo by filling out the contact form above or by emailing us directly at demo@edubloom.cloud with your preferred date and time.
+                  You can schedule a demo by filling out the contact form above or by emailing us directly at <u>gideonnayak01@gmail.com</u> with your preferred date and time.
                 </p>
               </div>
               
@@ -277,11 +278,11 @@ const Contact = () => {
               </div>
             </div>
             
-            <div className="text-center mt-8">
+            {/* <div className="text-center mt-8">
               <Link to="/features" className="text-edu-purple hover:text-edu-blue font-medium">
                 See more frequently asked questions
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </main>
